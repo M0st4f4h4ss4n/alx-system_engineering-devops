@@ -1,2 +1,5 @@
 #!/bin/bash
-find . -name '*.html' -exec cp -u .. {} 
+for FILE in ./*.html
+do
+        cp $FILE ../
+done
