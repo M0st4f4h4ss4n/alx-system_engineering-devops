@@ -1,2 +1,2 @@
 #!/bin/bash
-for FILE in ./*.html do cp $FILE ../ done
+cp -rua *.html ../
