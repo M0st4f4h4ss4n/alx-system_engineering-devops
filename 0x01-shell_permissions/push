@@ -1,0 +1,5 @@
+#!/bin/bash
+git add .
+git commit -m "Bash Push"
+git push
+eacho "Pushed !"
