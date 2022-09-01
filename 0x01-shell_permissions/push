@@ -2,4 +2,4 @@
 git add .
 git commit -m "Bash Push"
 git push
-eacho "Pushed !"
+echo "Pushed !"
