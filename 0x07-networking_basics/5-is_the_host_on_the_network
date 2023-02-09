@@ -11,5 +11,6 @@ if ! [ "$IP" ]; then
 	echo "Usage: ${fn} {IP_ADDRESS}"
 else
 	ping -c 5 "${IP}"
+
 fi
 
