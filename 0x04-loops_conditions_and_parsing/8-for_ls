@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# ls using for loop
+# displays the content of the current directory in a certain format
 
-for file in *; do
-  echo "$file" | cut -d '-' -f 2;
+list=$(ls)
+for file in $list
+do
+    find "$file" | cut -d- -f2
 done
